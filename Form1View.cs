@@ -26,7 +26,8 @@ namespace FormTestSample
 
         private void Button1_Click(object sender, EventArgs e)
         {
-
+        
+			//ボタンクリック処理
             _viewModel.textBox1 = textBox1.Text;
             _viewModel.textBox2 = textBox2.Text;
             _viewModel.multiplication();
@@ -53,7 +54,8 @@ namespace FormTestSample
 
 private void timer1_Tick(object sender, EventArgs e)
         {
-
+			//タイマーで１００ms
+			//what do you mean
             int x = System.Windows.Forms.Cursor.Position.X;
             int y = System.Windows.Forms.Cursor.Position.Y;
             label2.Text = x.ToString();
